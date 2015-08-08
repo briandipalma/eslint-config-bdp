@@ -1,0 +1,27 @@
+{
+  "name": "eslint-config-bdp",
+  "version": "1.0.0",
+  "description": "Shareable ESLint configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/briandipalma/eslint-config-bdp.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Brian Di Palma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/briandipalma/eslint-config-bdp/issues"
+  },
+  "homepage": "https://github.com/briandipalma/eslint-config-bdp#readme",
+  "devDependencies": {
+    "eslint": "^1.0.0",
+    "eslint-plugin-react": "^3.1.0"
+  }
+}
