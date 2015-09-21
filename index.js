@@ -3,4 +3,7 @@
 var join = require("path").join
 var readFileSync = require("fs").readFileSync;
 
-module.exports = JSON.parse(readFileSync(__dirname, ".eslintrc"));
+var normalizedESLintrcPath = join(__dirname, ".eslintrc");
+var esLintrcContents = readFileSync(normalizedESLintrcPath, "utf8");
+
+module.exports = JSON.parse(esLintrcContents);
