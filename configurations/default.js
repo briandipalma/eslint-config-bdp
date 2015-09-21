@@ -24,5 +24,8 @@ module.exports = {
 		"node": true,
 		"browser": true
 	},
-	"extends": "eslint:recommended"
+	"extends": "eslint:recommended",
+	"ecmaFeatures": {
+		"modules": true
+	}
 };
