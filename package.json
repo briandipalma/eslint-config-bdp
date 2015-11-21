@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-bdp",
+  "name": "@briandipalma/eslint-config-bdp",
   "version": "1.0.0",
   "description": "Shareable ESLint configuration",
   "main": "configurations/default.js",
