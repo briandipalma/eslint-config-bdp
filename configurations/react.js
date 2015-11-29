@@ -15,6 +15,7 @@ module.exports = {
 		"react/jsx-boolean-value": [1, ["always"]],
 		"react/jsx-closing-bracket-location": 1,
 		"react/jsx-curly-spacing": 1,
+		"react/jsx-handler-names": 1,
 		"react/jsx-indent-props": [1, "tab"],
 		"react/jsx-key": 1,
 		"react/jsx-max-props-per-line": 1,
