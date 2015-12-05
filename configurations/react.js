@@ -10,6 +10,7 @@ module.exports = {
 		"experimentalObjectRestSpread": true
 	},
 	"rules": {
+		"no-extra-parens": [2, "functions"],
 		"react/display-name": [1, { "acceptTranspilerName": true }],
 		"react/forbid-prop-types": 1,
 		"react/jsx-boolean-value": [1, ["always"]],
