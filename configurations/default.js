@@ -92,7 +92,7 @@ module.exports = {
 		"consistent-this": [2, "self"],
 		"eol-last": 2,
 		"func-names": 2,
-		"func-style": [2, "declaration"],
+		"func-style": [2, "declaration", {"allowArrowFunctions": true}],
 		"id-length": 2,
 		"jsx-quotes": 2,
 		"key-spacing": 2,
