@@ -16,6 +16,7 @@ module.exports = {
 		"react/jsx-boolean-value": [1, ["always"]],
 		"react/jsx-closing-bracket-location": 1,
 		"react/jsx-curly-spacing": 1,
+		"react/jsx-equals-spacing": 1,
 		"react/jsx-handler-names": 1,
 		"react/jsx-indent-props": [1, "tab"],
 		"react/jsx-indent": [1, "tab"],
@@ -25,8 +26,8 @@ module.exports = {
 		"react/jsx-no-literals": 1,
 		"react/jsx-no-undef": 1,
 		"react/jsx-pascal-case": 1,
-		"react/jsx-sort-prop-types": 1,
 		"react/jsx-sort-props": 1,
+		"react/jsx-space-before-closing": 1,
 		"react/jsx-uses-react": 1,
 		"react/jsx-uses-vars": 1,
 		"react/no-deprecated": 1,
@@ -42,6 +43,7 @@ module.exports = {
 		"react/react-in-jsx-scope": 1,
 		"react/self-closing-comp": 1,
 		"react/sort-comp": 1,
+		"react/sort-prop-types": 1,
 		"react/wrap-multilines": 1
 	}
 };
