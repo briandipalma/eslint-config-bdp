@@ -107,7 +107,7 @@ module.exports = {
 		"no-new-object": 2,
 		"no-spaced-func": 2,
 		"no-trailing-spaces": 2,
-		"no-underscore-dangle": 2,
+		"no-underscore-dangle": [2, { "allowAfterThis": true }],
 		"no-unneeded-ternary": 2,
 		"object-curly-spacing": 2,
 		"one-var": [2, "never"],
