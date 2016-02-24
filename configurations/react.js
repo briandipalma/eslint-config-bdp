@@ -5,9 +5,11 @@ module.exports = {
 	"plugins": [
 		"react"
 	],
-	"ecmaFeatures": {
-		"jsx": true,
-		"experimentalObjectRestSpread": true
+	"parserOptions": {
+		 "ecmaFeatures": {
+				"jsx": true,
+				"experimentalObjectRestSpread": true
+		}
 	},
 	"rules": {
 		"no-extra-parens": [2, "functions"],

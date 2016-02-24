@@ -7,7 +7,6 @@ module.exports = {
 		"linebreak-style": 2,
 		"semi": [2, "always"],
 		"no-extra-parens": 2,
-		"no-unexpected-multiline": 2,
 		"valid-jsdoc": [
 			2,
 			{"requireReturn": false, "requireParamDescription": false, "requireReturnDescription": false}
@@ -22,11 +21,8 @@ module.exports = {
 		"guard-for-in": 2,
 		"no-alert": 2,
 		"no-caller": 2,
-		"no-case-declarations": 2,
 		"no-div-regex": 2,
 		"no-else-return": 2,
-		"no-empty-label": 2,
-		"no-empty-pattern": 2,
 		"no-eval": 2,
 		"no-extend-native": 2,
 		"no-extra-bind": 2,
@@ -119,24 +115,18 @@ module.exports = {
 		"padded-blocks": [2, "never"],
 		"quote-props": [2, "as-needed"],
 		"semi-spacing": 2,
-		"space-after-keywords": 2,
+		"keyword-spacing": 2,
 		"space-before-function-paren": [2, "never"],
-		"space-before-keywords": 2,
 		"space-in-parens": 2,
 		"space-infix-ops": 2,
-		"space-return-throw-case": 2,
 		"space-unary-ops": 2,
 		"spaced-comment": 2,
 		"space-before-blocks": 2,
 		"arrow-parens": 2,
 		"arrow-spacing": 2,
-		"constructor-super": 2,
 		"generator-star-spacing": [2, {"before": false, "after": true}],
-		"no-arrow-condition": 2,
-		"no-class-assign": 2,
-		"no-const-assign": 2,
-		"no-dupe-class-members": 2,
-		"no-this-before-super": 2,
+		"no-confusing-arrow": 2,
+		"no-constant-condition": 2,
 		"no-var": 2,
 		"object-shorthand": 2,
 		"prefer-arrow-callback": 2,
@@ -153,7 +143,8 @@ module.exports = {
 		"browser": true
 	},
 	"extends": "eslint:recommended",
-	"ecmaFeatures": {
-		"modules": true
+	"parserOptions": {
+		"ecmaVersion": 6,
+		"sourceType": "module"
 	}
 };
