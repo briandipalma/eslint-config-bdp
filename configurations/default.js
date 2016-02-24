@@ -135,7 +135,15 @@ module.exports = {
 		"prefer-spread": 2,
 		"prefer-template": 2,
 		"require-yield": 2,
-		"max-len": [2, 110, 4]
+		"max-len": [2, 110, 4],
+		"newline-per-chained-call": 2,
+		"no-empty-function": 2,
+		"no-unmodified-loop-condition": 2,
+		"no-useless-constructor": 2,
+		"no-whitespace-before-property": 2,
+		"prefer-rest-params": 2,
+		"template-curly-spacing": 2,
+		"yield-star-spacing": 2
 	},
 	"env": {
 		"es6": true,
