@@ -134,7 +134,7 @@ module.exports = {
 		"prefer-spread": 2,
 		"prefer-template": 2,
 		"require-yield": 2,
-		"max-len": [2, 110, 4],
+		"max-len": [2, 120, 4],
 		"newline-per-chained-call": 2,
 		"no-empty-function": 2,
 		"no-unmodified-loop-condition": 2,
