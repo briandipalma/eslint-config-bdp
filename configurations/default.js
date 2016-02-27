@@ -6,7 +6,6 @@ module.exports = {
 		"quotes": [2, "double"],
 		"linebreak-style": 2,
 		"semi": [2, "always"],
-		"no-extra-parens": 2,
 		"valid-jsdoc": [
 			2,
 			{"requireReturn": false, "requireParamDescription": false, "requireReturnDescription": false}
