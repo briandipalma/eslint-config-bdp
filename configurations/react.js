@@ -13,9 +13,9 @@ module.exports = {
 	},
 	"rules": {
 		"no-extra-parens": [2, "functions"],
-		"react/display-name": [1, { "acceptTranspilerName": true }],
+		"react/display-name": 2,
 		"react/forbid-prop-types": 1,
-		"react/jsx-boolean-value": [1, ["always"]],
+		"react/jsx-boolean-value": [1, "always"],
 		"react/jsx-closing-bracket-location": 1,
 		"react/jsx-curly-spacing": 1,
 		"react/jsx-equals-spacing": 1,
