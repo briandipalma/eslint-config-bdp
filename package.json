@@ -19,7 +19,7 @@
   "homepage": "https://github.com/briandipalma/eslint-config-bdp#readme",
   "devDependencies": {
     "babel-eslint": "5.0.0",
-    "eslint": "2.2.0",
+    "eslint": "2.3.0",
     "eslint-plugin-react": "4.1.0"
   }
 }
