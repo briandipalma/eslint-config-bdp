@@ -30,7 +30,7 @@ module.exports = {
 		"react/jsx-pascal-case": 1,
 		"react/jsx-sort-props": 1,
 		"react/jsx-space-before-closing": 1,
-		"react/no-multi-comp": 1,
+		"react/no-multi-comp": [1, {"ignoreStateless": true}],
 		"react/no-string-refs": 1,
 		"react/prefer-es6-class": 1,
 		"react/self-closing-comp": 1,
