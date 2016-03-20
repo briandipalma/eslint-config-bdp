@@ -15,6 +15,7 @@ module.exports = {
 	},
 	"rules": {
 		"no-extra-parens": [2, "functions"],
+		"new-cap": [2, {"capIsNew": false}],
 		"react/forbid-prop-types": 1,
 		"react/jsx-boolean-value": [1, "always"],
 		"react/jsx-closing-bracket-location": 1,
