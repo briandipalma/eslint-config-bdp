@@ -139,6 +139,8 @@ module.exports = {
 		"no-empty-function": 2,
 		"no-unmodified-loop-condition": 2,
 		"no-useless-constructor": 2,
+		"no-useless-escape": 2,
+		"no-duplicate-imports": [2, { "includeExports": true }],
 		"no-whitespace-before-property": 2,
 		"prefer-rest-params": 2,
 		"template-curly-spacing": 2,
