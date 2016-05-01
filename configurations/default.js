@@ -3,7 +3,7 @@
 module.exports = {
 	"rules": {
 		"indent": [2, "tab", {"SwitchCase": 1}],
-		"quotes": [2, "single", "avoid-escape"],
+		"quotes": [2, "single", {"avoidEscape": true}],
 		"linebreak-style": 2,
 		"semi": [2, "always"],
 		"valid-jsdoc": [
