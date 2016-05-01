@@ -144,7 +144,9 @@ module.exports = {
 		"no-whitespace-before-property": 2,
 		"prefer-rest-params": 2,
 		"template-curly-spacing": 2,
-		"yield-star-spacing": 2
+		"yield-star-spacing": 2,
+		"no-unsafe-finally": 2,
+		"no-useless-computed-key": 2
 	},
 	"env": {
 		"es6": true,
