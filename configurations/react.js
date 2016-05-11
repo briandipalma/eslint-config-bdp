@@ -38,6 +38,7 @@ module.exports = {
 		"react/self-closing-comp": 1,
 		"react/sort-comp": 1,
 		"react/sort-prop-types": 1,
-		"react/wrap-multilines": 1
+		"react/wrap-multilines": 1,
+		"react/jsx-no-target-blank": 1
 	}
 };
