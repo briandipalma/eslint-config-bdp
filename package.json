@@ -19,6 +19,6 @@
   "homepage": "https://github.com/briandipalma/eslint-config-bdp#readme",
   "devDependencies": {
     "eslint": "2.9.0",
-    "eslint-plugin-react": "5.1.1"
+    "eslint-plugin-react": "6.2.1"
   }
 }
